@@ -8,11 +8,55 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>STORE ISNZOFC</title>
+    <title>My Web Store</title>
 
     <style>
 
-        /* Your existing styles remain unchanged */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #1e90ff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
 
     </style>
 
@@ -22,27 +66,35 @@
 
     <header>
 
-        <h1>STORE BY ISNZOFC</h1>
-
-        <nav>
-
-            <ul>
-
-                <li><a href="https://isnaganteng.github.io">Beranda</a></li>
-
-                <li><a href="https://wa.me/6285778225339">WhatsApp</a></li>
-
-                <li><a href="https://t.me/isnzofc">Telegram</a></li>
-
-                <li><a href="https://api.whatsapp.com/send?phone=62895326036822&text=.menu">Wa BOT</a></li>
-
-            </ul>
-
-        </nav>
+        <h1>My Web Store</h1>
 
     </header>
 
-    <!-- Rest of your HTML content remains unchanged -->
+    <section id="products">
+
+        <article class="product-item">
+
+            <img src="product1.jpg" alt="Product 1">
+
+            <h2>Product 1</h2>
+
+            <p>Description of Product 1</p>
+
+            <p class="price">$10.00</p>
+
+            <button>Add to Cart</button>
+
+        </article>
+
+        <!-- Add more product articles as needed -->
+
+    </section>
+
+    <footer>
+
+        <p>&copy; 2024 My Web Store. All Rights Reserved.</p>
+
+    </footer>
 
 </body>
 
